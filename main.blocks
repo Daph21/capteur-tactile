@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="o+tm=D1)F^D|vkj|A{Z7" x="0" y="0"><statement name="HANDLER"><block type="device_set_pull" id="OC3-w86F/9g},TgRyy]N"><field name="pin">DigitalPin.P0</field><field name="pull">PinPullMode.PullUp</field></block></statement></block><block type="device_forever" id="}!zwUFD}NaD?ZQLvzYA1" x="14" y="212"><statement name="HANDLER"><block type="controls_if" id="eModIx|KMgJMM%k3U-k:"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="7^3hmHe:ICTp{2Xczpid"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id="bOZTKj!Vo|wZ#bx:UK[?"><field name="name">DigitalPin.P0</field></block></value><value name="B"><shadow type="math_number" id="-x46usk=GBe6HW!?5^%w"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="}+3C~/?0{ceN,^K$MgH6"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="fx79[u%`!d)H~-,%8A?I"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></statement></block></statement></block></xml>
